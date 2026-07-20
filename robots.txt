@@ -1,0 +1,30 @@
+# Allow all standard search engines and web crawlers
+User-agent: *
+Allow: /
+
+# Explicitly allow AI and LLM crawlers for indexing and data extraction
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Omgilibot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+Sitemap: https://jemishavasoya.github.io/Glowkri/sitemap.xml
