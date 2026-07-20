@@ -49,46 +49,32 @@ This script bypasses those limitations. It executes native Swift `CoreGraphics` 
 
 ---
 
-## 🛠️ How to Use It
+## 🛠️ How to Use It (Beginner Friendly!)
 
-### ⭐ One-Line Installation
-To download the tool and make it executable in one simple command, run this in your terminal:
+**Prerequisite:** You just need a Mac. No coding experience required!
+
+### Step 1: Open Terminal
+1. Press `Command (⌘) + Space` on your keyboard to open Spotlight Search.
+2. Type `Terminal` and hit **Enter**. (A small text window will pop up).
+
+### Step 2: Download Glowkri
+Copy the exact line of code below, paste it into your Terminal window, and hit **Enter**:
 ```bash
 curl -fsSL https://raw.githubusercontent.com/jemishavasoya/HDR_Logo/main/glowkri.sh -o glowkri.sh && chmod +x glowkri.sh
 ```
+*(This safely downloads the tool to your Mac so it's ready to use).*
 
-### 🚀 How to Run (Usage)
-Once downloaded, generate your glowing logo by running the script and pointing it to your image file.
-
-**Example:**
+### Step 3: Make Your Logo Glow!
+1. Type the following into your Terminal and hit the **Spacebar** once:
 ```bash
-./glowkri.sh my_logo.png
+./glowkri.sh 
 ```
-*(This will instantly create a new, ultra-bright file named `my_logo-hdr.jpg` in the same folder!)*
+2. **Do not hit enter yet!** Find your original logo file (e.g., on your Desktop). 
+3. **Drag and drop your logo file** directly into the Terminal window. The Terminal will automatically type out the file path for you!
+4. Now hit **Enter**.
 
----
-
-### 📝 Manual Step-by-Step
-
-**Prerequisites:** You must run this on a Mac (macOS).
-
-#### 1. Prepare Your Logo
-Ensure your logo is a PNG with a transparent or white background. *(Pro tip: For the best glowing effect, use black or dark text/graphics).*
-
-#### 2. Make the Script Executable
-Open your terminal and run:
-```bash
-chmod +x glowkri.sh
-```
-
-#### 3. Generate the HDR Logo
-Run the script, passing your logo as the argument:
-```bash
-./glowkri.sh my_logo.png
-```
-
-### 4. Get Your File
-The script will instantly output a new file named `my_logo-hdr.jpg`. This is your new glowing logo!
+### 🎉 That's it!
+A new file ending in `-hdr.jpg` will instantly appear exactly where your original logo was saved. This is your new ultra-bright glowing logo, ready for LinkedIn!
 
 ---
 
