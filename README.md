@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🌟 LinkedIn Glowing HDR Logo Generator</h1>
+  <h1>🌟 Glowkri - LinkedIn Glowing HDR Logo Generator</h1>
   <p><strong>The native macOS script to create ultra-bright, 10,000-nit "glowing" white logos for LinkedIn.</strong></p>
   
   [![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)](#)
@@ -7,11 +7,32 @@
   [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](#)
 </div>
 
-<br />
+<p align="center">
+  <img src="./Glowkri-Demo.png" alt="Glowkri Demo" style="width:100%; height:auto; border-radius: 8px;"/><br>
+</p>
 
 Have you seen those ridiculously bright, glowing logos on LinkedIn (like Oasis or Cosmos) that seem to jump off the screen on your iPhone or MacBook? They use a clever HDR (High Dynamic Range) trick to bypass standard compression and force Apple EDR (Extended Dynamic Range) displays to render pure white at maximum brightness.
 
 **This open-source tool lets you do exactly that—in seconds, directly on your Mac.**
+
+---
+
+### ✨ Features
+* **True 10,000 Nits:** Forces Apple EDR displays to maximum brightness.
+* **Metadata Injector:** Bypasses LinkedIn's aggressive compression.
+* **Native Swift Execution:** Zero dependencies (no ImageMagick or Python needed).
+* **Instant:** Runs entirely locally on your Mac in milliseconds.
+
+---
+
+### 💻 System Support
+
+| Operating System | Architecture | Supported |
+| :--------------- | :----------- | :-------- |
+| macOS            | Intel, Apple Silicon | ✅        |
+| Linux            | x64, ARM64   | ❌        |
+| Windows          | x64, ARM64   | ❌        |
+
 
 ## ✨ Why This Tool Exists (The Problem)
 
@@ -28,23 +49,31 @@ This script bypasses those limitations. It executes native Swift `CoreGraphics` 
 
 ---
 
-## 🛠️ How to Use It (Step-by-Step)
+## 🛠️ How to Use It
+
+### ⭐ One-Line Auto-Run Download
+To download, grant permission, and run the utility in one line:
+```bash
+curl -fsSL https://raw.githubusercontent.com/jemishavasoya/HDR_Logo/main/glowkri.sh -o glowkri.sh && chmod +x glowkri.sh && ./glowkri.sh my_logo.png
+```
+
+### 📝 Manual Step-by-Step
 
 **Prerequisites:** You must run this on a Mac (macOS).
 
-### 1. Prepare Your Logo
+#### 1. Prepare Your Logo
 Ensure your logo is a PNG with a transparent or white background. *(Pro tip: For the best glowing effect, use black or dark text/graphics).*
 
-### 2. Make the Script Executable
+#### 2. Make the Script Executable
 Open your terminal and run:
 ```bash
-chmod +x superwhite.sh
+chmod +x glowkri.sh
 ```
 
-### 3. Generate the HDR Logo
+#### 3. Generate the HDR Logo
 Run the script, passing your logo as the argument:
 ```bash
-./superwhite.sh my_logo.png
+./glowkri.sh my_logo.png
 ```
 
 ### 4. Get Your File
@@ -64,12 +93,16 @@ To ensure the HDR profile survives the upload process:
 ---
 
 ## 📦 Included in this Repository
-- `superwhite.sh`: The core generator script.
+- `glowkri.sh`: The core generator script.
 - `Jemish_Vasoya.png`: A sample starting logo to test.
 - `Jemish_Vasoya-hdr.jpg`: The generated glowing HDR result.
 
-## 🤝 Contributing
+## 🤩 Contribution
 Found a way to make the HDR metadata stick on personal profiles? Want to port this to Windows/Linux using custom EXIF injection? Pull requests are highly welcome! 
+
+## ☕ Support
+You can also buy me a cup of coffee:
+<a href="https://www.buymeacoffee.com/jempatellbv" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Tea" style="height: 60px !important;width: 217px !important;" ></a>
 
 ## 📝 Credits & Inspiration
 Inspired by the "ridiculously white" Oasis and Cosmos logos seen in the wild on LinkedIn, and based on native Swift `CGImageDestination` injection techniques to trick Apple's rendering engine.

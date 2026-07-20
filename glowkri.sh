@@ -1,8 +1,8 @@
-superwhite() { swift - "$1" "${1%.*}-hdr.jpg" <<'SW'
+glowkri() { swift - "$1" "${1%.*}-hdr.jpg" <<'SW'
 import Foundation; import CoreGraphics; import ImageIO; import UniformTypeIdentifiers
 let a = CommandLine.arguments
 guard a.count >= 3, let s = CGImageSourceCreateWithURL(URL(fileURLWithPath: a[1]) as CFURL, nil),
-      let c = CGImageSourceCreateImageAtIndex(s, 0, nil) else { print("usage: superwhite image.png"); exit(1) }
+      let c = CGImageSourceCreateImageAtIndex(s, 0, nil) else { print("usage: glowkri image.png"); exit(1) }
 let w = c.width, h = c.height, r = w * 4
 var b = [UInt8](repeating: 0, count: r * h)
 let x = CGContext(data: &b, width: w, height: h, bitsPerComponent: 8, bytesPerRow: r,
@@ -15,7 +15,7 @@ let img = CGImage(width: w, height: h, bitsPerComponent: 8, bitsPerPixel: 32, by
       provider: CGDataProvider(data: Data(b) as CFData)!, decode: nil, shouldInterpolate: false, intent: .defaultIntent)!
 let d = CGImageDestinationCreateWithURL(URL(fileURLWithPath: a[2]) as CFURL, UTType.jpeg.identifier as CFString, 1, nil)!
 CGImageDestinationAddImage(d, img, [kCGImageDestinationLossyCompressionQuality: 0.95] as CFDictionary)
-CGImageDestinationFinalize(d); print("✅ super-white ->", a[2])
+CGImageDestinationFinalize(d); print("✅ glowkri ->", a[2])
 SW
 }
-superwhite "$1"
+glowkri "$1"
