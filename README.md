@@ -56,10 +56,17 @@ To download the tool and make it executable in one simple command, run this in y
 ```bash
 curl -fsSL https://raw.githubusercontent.com/jemishavasoya/HDR_Logo/main/glowkri.sh -o glowkri.sh && chmod +x glowkri.sh
 ```
-Then, generate your glowing logo by running:
+
+### 🚀 How to Run (Usage)
+Once downloaded, generate your glowing logo by running the script and pointing it to your image file.
+
+**Example:**
 ```bash
-./glowkri.sh <your_logo.png>
+./glowkri.sh my_logo.png
 ```
+*(This will instantly create a new, ultra-bright file named `my_logo-hdr.jpg` in the same folder!)*
+
+---
 
 ### 📝 Manual Step-by-Step
 
