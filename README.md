@@ -65,16 +65,15 @@ curl -fsSL https://raw.githubusercontent.com/jemishavasoya/Glowkri/main/glowkri.
 *(This safely downloads the tool to your Mac so it's ready to use).*
 
 ### Step 3: Make Your Logo Glow!
-1. Type the following into your Terminal and hit the **Spacebar** once:
+1. Type the following into your Terminal and hit **Enter**:
 ```bash
 ./glowkri.sh 
 ```
-2. **Do not hit enter yet!** Find your original logo file (e.g., on your Desktop). 
-3. **Drag and drop your logo file** directly into the Terminal window. The Terminal will automatically type out the file path for you!
-4. Now hit **Enter**.
+2. The script will open an interactive menu and ask you for your image.
+3. Simply **drag and drop your logo file** from your Mac directly into the Terminal window and hit **Enter**!
 
 ### 🎉 That's it!
-A new file ending in `-hdr.jpg` will instantly appear exactly where your original logo was saved. This is your new ultra-bright glowing logo, ready for LinkedIn!
+The script will process your image and tell you exactly where the new ultra-bright `-hdr.jpg` file was saved. It's ready for LinkedIn!
 
 ---
 
