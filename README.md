@@ -57,20 +57,16 @@ This script bypasses those limitations. It executes native Swift `CoreGraphics` 
 1. Press `Command (⌘) + Space` on your keyboard to open Spotlight Search.
 2. Type `Terminal` and hit **Enter**. (A small text window will pop up).
 
-### Step 2: Download Glowkri
+### Step 2: Download & Run Glowkri
 Copy the exact line of code below, paste it into your Terminal window, and hit **Enter**:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/jemishavasoya/Glowkri/main/glowkri.sh -o glowkri.sh && chmod +x glowkri.sh
+curl -fsSL https://raw.githubusercontent.com/jemishavasoya/Glowkri/main/glowkri.sh -o glowkri.sh && chmod +x glowkri.sh && ./glowkri.sh
 ```
-*(This safely downloads the tool to your Mac so it's ready to use).*
+*(This safely downloads the tool to your Mac and opens it immediately).*
 
 ### Step 3: Make Your Logo Glow!
-1. Type the following into your Terminal and hit **Enter**:
-```bash
-./glowkri.sh 
-```
-2. The script will open an interactive menu and ask you for your image.
-3. Simply **drag and drop your logo file** from your Mac directly into the Terminal window and hit **Enter**!
+The script will now ask you for your image. 
+Simply **drag and drop your logo file** from your Mac directly into the Terminal window and hit **Enter**!
 
 ### 🎉 That's it!
 The script will process your image and tell you exactly where the new ultra-bright `-hdr.jpg` file was saved. It's ready for LinkedIn!
