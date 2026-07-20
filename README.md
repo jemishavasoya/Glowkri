@@ -60,7 +60,7 @@ This script bypasses those limitations. It executes native Swift `CoreGraphics` 
 ### Step 2: Download Glowkri
 Copy the exact line of code below, paste it into your Terminal window, and hit **Enter**:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/jemishavasoya/HDR_Logo/main/glowkri.sh -o glowkri.sh && chmod +x glowkri.sh
+curl -fsSL https://raw.githubusercontent.com/jemishavasoya/Glowkri/main/glowkri.sh -o glowkri.sh && chmod +x glowkri.sh
 ```
 *(This safely downloads the tool to your Mac so it's ready to use).*
 
