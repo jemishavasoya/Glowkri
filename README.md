@@ -51,10 +51,14 @@ This script bypasses those limitations. It executes native Swift `CoreGraphics` 
 
 ## 🛠️ How to Use It
 
-### ⭐ One-Line Auto-Run Download
-To download, grant permission, and run the utility in one line:
+### ⭐ One-Line Installation
+To download the tool and make it executable in one simple command, run this in your terminal:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/jemishavasoya/HDR_Logo/main/glowkri.sh -o glowkri.sh && chmod +x glowkri.sh && ./glowkri.sh my_logo.png
+curl -fsSL https://raw.githubusercontent.com/jemishavasoya/HDR_Logo/main/glowkri.sh -o glowkri.sh && chmod +x glowkri.sh
+```
+Then, generate your glowing logo by running:
+```bash
+./glowkri.sh <your_logo.png>
 ```
 
 ### 📝 Manual Step-by-Step
