@@ -98,6 +98,5 @@ You can also buy me a cup of coffee:
 
 ## 📝 Credits & Inspiration
 Inspired by the "ridiculously white" Oasis and Cosmos logos seen in the wild on LinkedIn, and based on native Swift `CGImageDestination` injection techniques to trick Apple's rendering engine.
-
 ---
 **SEO Tags:** `LinkedIn Glowing Logo`, `HDR Logo LinkedIn`, `Apple EDR Display`, `Bright White Logo LinkedIn`, `OLED iPhone HDR Logo`, `LinkedIn Logo Hack`, `Rec.2020 PQ`, `10000 nits logo`, `HDR Image Generator`, `Bypass LinkedIn Compression`.
